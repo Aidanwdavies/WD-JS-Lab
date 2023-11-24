@@ -1,0 +1,74 @@
+h1::first-letter{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+nav{
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    width: 150px;
+    }
+nav:hover ul{
+    display: block;
+}
+   
+nav ul li{
+    border: 2px solid green;
+    background-color: white;
+    }
+nav ul li:hover{
+    background-color: green;
+    }
+nav ul li a:hover{
+    color: black;
+    }
+a{
+    color: black;
+}
+header, footer {
+    background-color: wheat;
+}
+ul{
+    overflow: hidden;
+    padding: 0px;
+}
+
+footer{
+    text-align: center;
+    color: green;
+    padding-bottom: 15px;
+}
+
+.Form {
+    text-align: center;
+}
+
+.Form p {
+    text-align: center; 
+}
+
+.Form label {
+    display: block; 
+   
+}
+
+.Form input, .Form textarea {
+    width: 30%; 
+}
+.fa-solid{
+    position: relative;
+    bottom: -58px;
+    right: -140px;
+}
+header{
+    padding-bottom: 1px;
+}
+
+
